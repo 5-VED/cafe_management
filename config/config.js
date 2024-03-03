@@ -1,9 +1,11 @@
-module.exports = {
+module.export = {
   development: {
     username: "postgres",
     password: "g9HRoXPZnBCZoSbx",
+    // password: "PostgressPwd",
     database: "postgres",
     host: "db.izdpcjumjhpsswbrcnzb.supabase.co",
+    //  host: "localhost",
     dialect: "postgres"
   },
   test: {
