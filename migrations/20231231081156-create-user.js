@@ -32,6 +32,10 @@ module.exports = {
         type: Sequelize.BOOLEAN,
         defaultValue: false
       },
+      role: { // Add the role field
+        type: Sequelize.STRING,
+        allowNull: true // Adjust as needed
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
